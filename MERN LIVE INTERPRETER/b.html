@@ -1,0 +1,146 @@
+<html>
+<head>
+<link rel="icon" href="icon.png" type="image/x-icon">
+<style>
+#d1
+{ 
+background-color :white;
+color : black;
+position: static;
+  left: 15px;
+  top: 15px;
+height:140px;
+overflow: scroll;
+padding: 0 0 400px 10px;
+}
+#i1
+{
+background-color:#303030;
+border:solid black;
+position: absolute;
+  left: 1%;
+  top: 10%;
+width:535.3px;
+height:542px;
+padding: 15 0 400px 20;
+color:white;
+}
+table
+{
+border-color:black black black black;
+}
+
+th
+{
+background-color:black;
+border: 2px solid green;  
+border-radius: 6px;
+}
+#d2
+{
+//color:black;
+text-align:center;
+font-style:italic;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: white;
+text-shadow:2px 2px grey;
+}
+
+body
+{
+background:black url("img.jpeg");
+background-position: center;
+background-size:270px
+}
+
+a
+{
+color: white;
+text-decoration:none;
+
+}
+a:hover
+{
+text-shadow:2px 2px red;
+
+}
+#t1{
+border:2; width:100%; height:15px;
+}
+
+
+
+</style>
+
+<script>
+
+function li()
+{
+x = document.getElementById("d1");
+y = document.getElementById("i1");
+
+x.innerHTML= y.value;
+
+w= document.documentElement.clientWidth;
+h= document.documentElement.clientHeight;
+
+}
+
+</script>
+</head>
+
+
+
+<body>
+
+<div ID="d2"><marquee scrollamount="18">WELCOME TO THE LIVE HTML INTERPRETER</marquee></div>
+
+<table id="t1" bgcolor="red">
+<tr>
+<th><a href="home.html">Home</a></th> 
+<th><a href="contact.html">Contact us</a></th>
+<th><a href="login.html">Login</a></th>
+<th><a href="feedback.html">Feedback</a></th>
+<th><a href="help.html">Help</a></th>
+</tr>
+</table>
+
+<table border=2 width=100% height=500px bgcolor=white>
+
+
+ <tr>
+       
+       <td colspan= "4" rowspan="6" width=50%><textarea id="i1"onkeyup="li()"><html>
+<title>HTML Online Interpreter</title></br>
+<head>
+</head>
+<body>
+<h1>HTML Online Interpreter</h1>
+<div>This is real time online HTML Interpreter</div></br>
+</body>
+</html></textarea></td> 
+       <td colspan = "4" rowspan="6" width=50%><div id="d1" ><html>
+<title>HTML Online Interpreter</title></br>
+// start writing your first code</br>
+<head>
+</head>
+<body>
+<h1>HTML Online Interpreter</h1>
+<div>This is real time online HTML Interpreter</div>
+</body>
+</html> </div></td>
+       
+
+ </tr>
+ 
+<tr>
+    <td ><table border=2px solid black ><tr><td bgcolor="D9D9D9">Advertisement</td></tr><table></td>
+</tr>
+
+
+
+</table>
+
+
+</body>
+</html>
